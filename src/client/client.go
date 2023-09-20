@@ -21,7 +21,7 @@ func main() {
     scanner := bufio.NewScanner(os.Stdin)
     
     for {
-        fmt.Println("Enter message: ")
+        fmt.Printlf("Enter message: ")
         // data to send
    
         if scanner.Scan() {
